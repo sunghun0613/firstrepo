@@ -1,0 +1,10 @@
+먼저 SOLID원칙이란
+S: 단일 책임 원칙 (Single Responsibility Principle ; SRP)
+O: 개방 -폐쇄원칙 (Open-Closed Principle; OCP)
+L: 리스코프 치환 원칙 (Liskov Substitution Principle; LSP)
+I: 인터페이스 분리 원칙 (Interface Segregation Principle; ISP)
+D: 의존 역전 원칙 (Dependency inversion Principle; DIP)
+이다.
+
+이번에 구현하였던 Duck프로그램에서는 I에 해당하는 인터페이스 분리 원칙이 적용되었다.
+QuackBehavior인터페이스나 FlyBehavior인터페이스 파일을 따로 저장함으로써 인터페이스 분리 원칙이 적용되었다.
