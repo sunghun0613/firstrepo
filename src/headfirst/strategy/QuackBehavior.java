@@ -1,7 +1,5 @@
 package headfirst.strategy;
 
-public class Quack implements QuackBehavior{
-  public void quack(){
-    System.out.println("Quack");
-  }
+public interface QuackBehavior {
+ public void quack();
 }
