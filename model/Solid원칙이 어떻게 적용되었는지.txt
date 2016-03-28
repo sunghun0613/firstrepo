@@ -1,6 +1,6 @@
 먼저 SOLID원칙이란
-S: 단일 책임 원칙 (Single Responsibility Principle ; SRP)
-O: 개방 -폐쇄원칙 (Open-Closed Principle; OCP)
+S: 단일 책임 원칙 (Single Responsibility Principle ; SRP)-->compare 여러개 안한다. 함수는 한가지의 기능만을 수행한다.
+O: 개방 -폐쇄원칙 (Open-Closed Principle; OCP)--> 확장에는 열려있고 수정에는 닫혀있다. 
 L: 리스코프 치환 원칙 (Liskov Substitution Principle; LSP)
 I: 인터페이스 분리 원칙 (Interface Segregation Principle; ISP)
 D: 의존 역전 원칙 (Dependency inversion Principle; DIP)
